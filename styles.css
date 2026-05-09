@@ -1,0 +1,406 @@
+
+body {
+    background-color: black;
+}
+
+.gta5 {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(35, 230, 68);
+
+    border-radius: 15px;
+
+    position: absolute;
+    left: 50px;
+    top: 84%;
+
+    font-size: 27px;
+
+    transition: transform 500ms;
+}
+
+.gta5:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(14, 176, 8);
+    background-color:  rgb(18, 208, 50);;
+
+}
+
+.weather {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(16, 225, 236);
+
+    border-radius: 15px;
+
+    position: absolute;
+    left: 550px;
+    top: 84%;
+
+    font-size: 27px;
+
+
+    transition: transform 500ms;
+}
+
+.weather:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(4, 233, 241);
+    background-color:  rgb(21, 194, 203);;
+
+}
+
+.cs {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255, 119, 0);
+
+    border-radius: 15px;
+
+    position: absolute;
+    left: 1050px;
+    top: 84%;
+
+    font-size: 27px;
+
+
+    transition: transform 500ms;
+}
+
+.cs:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(168, 88, 18);
+    background-color: rgb(214, 105, 9);
+
+}
+
+.main {
+    font-size: 60px;
+    color: white;
+
+    position: absolute;
+    left: 200px;
+    top: 52px;
+}
+
+.pf {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.pf:hover{
+    box-shadow: 0px 0px 2px 2px rgb(159, 154, 150);
+}
+
+.me{
+    border: 10px solid white;
+    width: 350px;
+    height: 550px;
+
+    position: absolute;
+    left: 50px;
+    top: 18%;
+    border-radius: 15px;
+}
+
+.scr{
+    width: 250px;
+    height: 130px;
+    color: white;
+    font-size: 30px;
+
+    position: absolute;
+    left: 470px;
+    top: 20%;
+
+}
+
+.open{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+
+    background-color: rgb(206, 206, 206);
+
+    color: black;
+    font-size: 25px;
+
+    position: absolute;
+    left: 37%;
+    top: 20%;
+
+    transition: transform 500ms;
+}
+
+.open:hover{
+    background-color: rgb(179, 178, 178);
+}
+
+.open1{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+
+    background-color: rgb(206, 206, 206);
+
+    color: black;
+    font-size: 25px;
+
+    position: absolute;
+    left: 47%;
+    top: 20%;
+
+    transition: transform 500ms;
+}
+
+.open1:hover{
+    background-color: rgb(179, 178, 178);
+}
+
+.open2{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+
+    background-color: rgb(206, 206, 206);
+
+    color: black;
+    font-size: 25px;
+
+    position: absolute;
+    left: 57%;
+    top: 20%;
+
+    transition: transform 500ms;
+}
+
+.open2:hover{
+    background-color: rgb(179, 178, 178);
+}
+
+.pl {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 22%;
+    top: 30%;
+}
+
+.pl1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 22%;
+    top: 40%;
+}
+
+.pl2 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 22%;
+    top: 50%;
+}
+
+.all{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+
+    background-color: rgb(95, 101, 184);
+
+    color: black;
+    font-size: 25px;
+
+    position: absolute;
+    left: 67%;
+    top: 17%;
+
+    transition: transform 500ms;
+}
+
+.all:hover{
+    background-color: rgb(60, 84, 114);
+}
+
+.close{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+
+    background-color: rgb(95, 101, 184);
+
+    color: black;
+    font-size: 25px;
+
+    position: absolute;
+    left: 67%;
+    top: 23%;
+
+    transition: transform 500ms;
+}
+
+.close:hover{
+    background-color: rgb(60, 84, 114);
+}
+
+.le {
+    width: 200px;
+    height: 20px;
+
+    color: white;
+    font-size: 10px;
+}
+
+.py{
+    width: 200px;
+    height: 60px;
+
+    background-color: darkblue;
+    color: white;
+
+    position: absolute;
+    left: 85%;
+    top: 30%;
+
+    border-radius: 5px;
+    border: 5px solid white;
+
+    transition: transform 500ms;
+}
+
+.py:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(15, 19, 85);
+    background-color: rgb(15, 15, 81);
+
+}
+
+.C{
+    width: 200px;
+    height: 60px;
+
+    background-color: rgb(25, 82, 148);
+    color: white;
+
+    position: absolute;
+    left: 85%;
+    top: 40%;
+
+    border-radius: 5px;
+    border: 5px solid white;
+
+    transition: transform 500ms;
+}
+
+.C:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(15, 19, 85);
+    background-color: rgb(19, 59, 103);
+
+}
+
+.w{
+    width: 200px;
+    height: 60px;
+
+    background-color: rgb(255, 145, 0);
+    color: white;
+
+    position: absolute;
+    left: 85%;
+    top: 50%;
+
+    border-radius: 5px;
+    border: 5px solid white;
+
+    transition: transform 500ms;
+}
+
+.w:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(15, 19, 85);
+    background-color: rgb(189, 113, 13);
+
+}
+
+.wc{
+    width: 200px;
+    height: 60px;
+
+    background-color: rgb(140, 0, 255);
+    color: white;
+
+    position: absolute;
+    left: 85%;
+    top: 60%;
+
+    border-radius: 5px;
+    border: 5px solid white;
+
+    transition: transform 500ms;
+}
+
+.wc:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(15, 19, 85);
+    background-color: rgb(99, 19, 164);
+
+}
+
+.jv{
+    width: 200px;
+    height: 60px;
+
+    background-color: rgb(255, 247, 0);
+    color: white;
+
+    position: absolute;
+    left: 85%;
+    top: 70%;
+
+    border-radius: 5px;
+    border: 5px solid white;
+
+    transition: transform 500ms;
+}
+
+.jv:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(15, 19, 85);
+    background-color: rgb(182, 177, 13);
+
+}
+
+.le{
+    position: absolute;
+    left: 81.5%;
+    top: 20%;
+
+    font-size: 20px;
+
+    width: 400px;
+
+
+}
+
+.chelsea{
+    width: 270px;
+    height: 270px;
+
+    position: absolute;
+    left: 11%;
+}
+
+.croatia{
+    width: 300px;
+    height: 300px;
+
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
